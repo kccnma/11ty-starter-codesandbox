@@ -38,21 +38,28 @@ a {
 }
 .site-header h1 {
   margin: 0;
+  font-family: var(--font-family-sans);
+  font-weight: 700;
+  font-size: 1.5em;
 }
 
 /* SITE LOGOS */
-.kcclogo {
+.parentlogo {
   display: none;
 }
-.nmalogo a {
-  background-image: url("../img/nma-logo-color.png");
+.mainlogo {
+  margin: 0;
+}
+.mainlogo a {
+  /* background-image: url("../img/nma-logo-color.png");
   background-repeat: no-repeat;
   background-size: contain;
   height: 0px;
   padding-top: 40px;
   width: 120px;
-  overflow: hidden;
+  overflow: hidden; */
   display: inline-block;
+  padding: 0.4em 0;
 }
 
 /* SITE NAVIGATION  */

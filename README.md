@@ -15,5 +15,5 @@ Another starter site setup, this one built/staticly generated using [11ty](https
     
 ## To Edit
 - Go to Open Project on [CodeSandbox](https://codesandbox.io/p/github/kccnma/11ty-starter-codesandbox/)
-- Create a Branch > Commit/Push your branch > Submit a Pull Request
+- Create a Branch > Commit/Push your branch > Submit a PR
 

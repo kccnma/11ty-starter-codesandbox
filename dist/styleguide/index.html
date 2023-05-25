@@ -1,0 +1,229 @@
+     
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>11ty Starter | Style Guide</title>
+    <meta name="description"
+        content="11ty Test1: a minimalistic HTML + CSS + JS 11ty setup for simple web site projects." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<a class="skip-link screen-reader-text" href="#content" role="link" title="Skip to content">Skip to content</a>
+<header class="site-header">
+    <h1 class="site-id">
+        <span class="kcclogo">
+            <a href="#">Parent Logo</a>
+        </span>
+        <span class="nmalogo">
+            <a href="../index.html">Child Logo</a>
+        </span>
+    </h1>
+    <nav class="site-navigation">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about/index.html">About</a>
+                <ul>
+                    <li><a href="../about/nma-faculty/index.html">Sub Sub Page</a></li>
+                </ul>
+            </li>
+            <li><a href="../styleguide/index.html" class="nma-button">Style Guide</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main id="content" class="site-main">
+
+
+<section class="nma-hero">
+    <div class="nma-container">
+
+        <h1 class="nma-runninghead">Hero Section</h1>
+        <h2 class="nma-display-large">Hero Headline</h2>
+        <h3>Hero Heading</h3>
+        <p>Hero paragraph lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ea vitae recusandae omnis.
+            Fugit facere, necessitatibus voluptatem eum assumenda veniam. Iusto nihil rerum est, quia expedita ipsum
+            sint esse repellat earum deserunt dolor quos inventore sapiente.</p>
+
+        <a href="" class="nma-button">Hero Button</a>
+        <a href="" class="nma-button alt">Hero Button Alt</a>
+
+    </div>
+</section>
+
+<section>
+    <div class="nma-container">
+
+        <h2 class="nma-runninghead">Running Head</h2>
+
+        <h1>This is a Heading 1</h1>
+        <h2>This is a Heading 2</h2>
+        <h3>This is a Heading 3</h3>
+        <h4>This is a Heading 4</h4>
+        <h5>This is a Heading 5</h5>
+        <h6>This is a Heading 6</h6>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut fringilla
+            ipsum, sed bibendum augue. Nullam euismod nec mauris elementum porta. Sed
+            varius nisl eu lobortis fringilla. Morbi id elit sollicitudin, venenatis
+            lacus id, cursus quam. Aliquam mollis orci vel enim fermentum adipiscing.
+            Duis facilisis lorem a nulla porttitor sagittis.
+        </p>
+
+        <p>
+            Suspendisse pulvinar bibendum laoreet. Suspendisse eget dignissim risus.
+            Cras eget sodales enim. Phasellus accumsan dui metus, quis vulputate
+            turpis congue at. Praesent rutrum consequat rhoncus. Maecenas adipiscing
+            justo vitae massa porta pretium. In egestas orci vehicula, tempus lorem
+            ut, facilisis metus.
+        </p>
+
+        <p>
+            Vivamus eu mollis velit. Maecenas id massa libero. Aliquam accumsan mauris
+            vulputate purus volutpat vestibulum. Phasellus sed tellus id tortor ornare
+            molestie. Quisque massa sapien, elementum sed tortor vitae, suscipit
+            congue massa. Curabitur tempor arcu eget leo placerat, a porta augue
+            pharetra. Nulla velit nibh, laoreet at hendrerit sit amet, adipiscing eget
+            dolor.
+        </p>
+
+        <h4>Unordered List:</h4>
+        <ul>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>
+                Nested Unordered List:
+                <ul>
+                    <li>List Item</li>
+                    <li>List Item</li>
+                </ul>
+            </li>
+            <li>
+                Nested Ordered List:
+                <ol>
+                    <li>List Item</li>
+                    <li>List Item</li>
+                </ol>
+            </li>
+            <li>List Item</li>
+            <li>List Item</li>
+        </ul>
+
+        <h4>Ordered List:</h4>
+        <ol>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>
+                Nested Unordered List:
+                <ul>
+                    <li>List Item</li>
+                    <li>List Item</li>
+                </ul>
+            </li>
+            <li>
+                Nested Ordered List:
+                <ol>
+                    <li>List Item</li>
+                    <li>List Item</li>
+                </ol>
+            </li>
+            <li>List Item</li>
+            <li>List Item</li>
+        </ol>
+
+        <h4>Links:</h4>
+        <p>This is a <a href="#">link</a>.</p>
+
+        <h4>Block Quotes:</h4>
+        <blockquote>
+            This is a blockquote. Donec sed rhoncus massa. Suspendisse rutrum viverra
+            felis. Vestibulum augue lacus, ullamcorper non suscipit nec, ornare et
+            mauris. Proin mattis fermentum nibh quis gravida.
+            <cite>Citation Source</cite>
+        </blockquote>
+
+        <h4>Helper Classes:</h4>
+        <p class="text-centered">This is center-aligned text</p>
+
+        <h4>Images:</h4>
+        <img src="https://via.placeholder.com/1500x500" alt="Placeholder" width="1500" height="500" />
+
+        <h4>Buttons:</h4>
+        <a href="#" class="button">Default Link Button</a>
+        <a href="#" class="button alt">Alt Link Button</a>
+        <button>Default Button Element</button>
+
+    </div>
+</section>
+
+
+</main>
+
+<footer class="site-footer">
+    <div class="nma-container">
+        <div class="nma-row one-third">
+            <div class="nma-column">
+                <div class="nma-widget">
+                    <img loading="lazy" width="500" height="160" src="../img/nma-logo-color.png" alt="New Media Arts Logo" />
+                    <h2>About this 11ty Starter</h2>
+                    <p>Lorem ipsum.</p>
+                    <a href="#" class="nma-button">This is a Button</a>
+                </div>
+            </div>
+            <div class="nma-column">
+                <div class="nma-widget">
+                    <h2>Location</h2>
+                    <address>Location Name<br />
+                        Name of the Road<br />
+                        City, ST 12345</address>
+                </div>
+                <div class="nma-widget nma-contactinfo">
+                    <h2>Contact Info</h2>
+                    <h3>First Last</h3>
+                    <h4>Title</h4>
+                    <p><a href="tel:(808) 734-9510">(###) ###-####</a><br />
+                        name [at] email.address
+                    </p>
+                    <a href="#" class="nma-button">Contact Us</a>
+                </div>
+            </div>
+            <div class="nma-column">
+                <div class="nma-widget">
+                    <h2>Related Links</h2>
+                    <nav class="site-navigation">
+                        <ul>
+                            <li><a href="#">Footer Link #1</a></li>
+                            <li><a href="#">Footer Link #1</a></li>
+                        </ul>
+                    </nav>
+                    <h2>Site map:</h2>
+                    <nav class="site-navigation">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about/index.html">About</a>
+                <ul>
+                    <li><a href="../about/nma-faculty/index.html">Sub Sub Page</a></li>
+                </ul>
+            </li>
+            <li><a href="../styleguide/index.html" class="nma-button">Style Guide</a></li>
+        </ul>
+    </nav>
+                </div>
+            </div>    
+        </div>    
+    </div>
+</footer>
+
+
+<!-- MAIN JS FILE -->
+<script src="../js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>11ty Starter | {{ title }}</title>
+    <meta name="description"
+        content="11ty Test1: a minimalistic HTML + CSS + JS 11ty setup for simple web site projects." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link href="{{ relPathPrefix }}css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<a class="skip-link screen-reader-text" href="#content" role="link" title="Skip to content">Skip to content</a>
+<header class="site-header">
+    <h1 class="site-id">
+        <span class="kcclogo">
+            <a href="#">Parent Logo</a>
+        </span>
+        <span class="nmalogo">
+            <a href="{{ relPathPrefix }}index.html">Child Logo</a>
+        </span>
+    </h1>
+    {% include _site-navigation.html %}
+</header>
+
+<main id="content" class="site-main">

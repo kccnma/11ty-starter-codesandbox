@@ -1,0 +1,25 @@
+{
+  "name": "nma_v4-static-minimal-base",
+  "version": "1.0.0",
+  "description": "a static version of the nma v4 site using 11ty",
+  "main": ".eleventy.js",
+  "scripts": {
+    "dev": "npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newmediaarts/nma_v4-static-minimal-base.git"
+  },
+  "keywords": [
+    "NMA"
+  ],
+  "author": "NMA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/newmediaarts/nma_v4-static-minimal-base/issues"
+  },
+  "homepage": "https://github.com/newmediaarts/nma_v4-static-minimal-base#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  }
+}

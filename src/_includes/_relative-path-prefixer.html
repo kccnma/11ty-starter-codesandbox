@@ -1,0 +1,1 @@
+{% assign relPathPrefix = '' %} {% assign tempDepth = page.url | append: 'hackish-solution' | split: '/' | size | minus: 2 %} {% for i in (1..tempDepth) %} {% assign relPathPrefix = relPathPrefix | append: "../" %} {% endfor %} {% if relPathPrefix == '' %} {% assign relPathPrefix = '' %} {% endif %}

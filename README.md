@@ -1,5 +1,5 @@
 # 11ty Staic Site Starter for Codesandbox
-Another starter site setup, this one built/staticly generated using [11ty](https://www.11ty.dev/)and designed to be bare bones simple, 100% pre-rendered (e.g. no native web components), and editable via codesandox.
+Another starter site setup, this one built/staticly generated using [11ty](https://www.11ty.dev/) and designed to be a bare bones simple, 100% pre-rendered static site that is editable via codesandox.
 
 [View Demo on Github Pages](https://kccnma.github.io/11ty-starter-codesandbox/dist/)
 

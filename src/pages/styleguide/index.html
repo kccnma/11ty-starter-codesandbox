@@ -6,7 +6,11 @@ title: Style Guide
 <section class="nma-hero">
     <div class="nma-container">
 
-        <h1 class="nma-runninghead">Hero Section</h1>
+
+
+        <h2>Hero Sections:</h2>
+
+        <h1 class="nma-runninghead">Hero Running Head</h1>
         <h2 class="nma-display-large">Hero Headline</h2>
         <h3>Hero Heading</h3>
         <p>Hero paragraph lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ea vitae recusandae omnis.
@@ -21,6 +25,8 @@ title: Style Guide
 
 <section>
     <div class="nma-container">
+
+        <h2>Typography:</h2>
 
         <h2 class="nma-runninghead">Running Head</h2>
 
@@ -56,7 +62,7 @@ title: Style Guide
             dolor.
         </p>
 
-        <h4>Unordered List:</h4>
+        <h3>Unordered List:</h3>
         <ul>
             <li>List Item</li>
             <li>List Item</li>
@@ -78,7 +84,7 @@ title: Style Guide
             <li>List Item</li>
         </ul>
 
-        <h4>Ordered List:</h4>
+        <h3>Ordered List:</h3>
         <ol>
             <li>List Item</li>
             <li>List Item</li>
@@ -100,10 +106,10 @@ title: Style Guide
             <li>List Item</li>
         </ol>
 
-        <h4>Links:</h4>
+        <h3>Links:</h3>
         <p>This is a <a href="#">link</a>.</p>
 
-        <h4>Block Quotes:</h4>
+        <h3>Block Quotes:</h3>
         <blockquote>
             This is a blockquote. Donec sed rhoncus massa. Suspendisse rutrum viverra
             felis. Vestibulum augue lacus, ullamcorper non suscipit nec, ornare et
@@ -111,16 +117,169 @@ title: Style Guide
             <cite>Citation Source</cite>
         </blockquote>
 
-        <h4>Helper Classes:</h4>
+        <h3>Helper Classes:</h3>
         <p class="text-centered">This is center-aligned text</p>
 
-        <h4>Images:</h4>
-        <img src="https://via.placeholder.com/1500x500" alt="Placeholder" width="1500" height="500" />
+    </div>
+</section>
 
-        <h4>Buttons:</h4>
-        <a href="#" class="button">Default Link Button</a>
-        <a href="#" class="button alt">Alt Link Button</a>
+<section>
+    <div class="nma-container">
+
+        <h2>Images:</h2>
+        <img src="https://via.placeholder.com/1500x500" alt="Placeholder" width="1500" height="500" />
+    </div>
+</section>
+
+<section>
+    <div class="nma-container">
+
+        <h2>Buttons:</h2>
+        <a href="#" class="nma-button">Default Link Button</a>
+        <a href="#" class="nma-button alt">Alt Link Button</a>
         <button>Default Button Element</button>
+    </div>
+</section>
+
+<section>
+    <div class="nma-container">
+        <h2>A Default Flexible Grid System</h2>
+        <p>The default number of columns is based on the number of columns in each row and the width of each column is determined by its contents.
+        <div class="nma-row demo">
+            <div class="nma-column">
+                Column
+            </div>
+            <div class="nma-column">
+                Column
+            </div>
+        </div>
+        <div class="nma-row demo">
+            <div class="nma-column">
+                Column
+            </div>
+            <div class="nma-column">
+                Column
+            </div>
+            <div class="nma-column">
+                Column
+            </div>
+        </div>
+        <div class="nma-row demo">
+            <div class="nma-column">
+                Column
+            </div>
+            <div class="nma-column">
+                Column
+            </div>
+            <div class="nma-column">
+                Column
+            </div>
+            <div class="nma-column">
+                Column
+            </div>
+        </div>
+        <div class="nma-row demo">
+            <div class="nma-column">
+                Column
+            </div>
+            <div class="nma-column">
+                Column
+            </div>
+            <div class="nma-column">
+                Column
+            </div>
+            <div class="nma-column">
+                This column has more content than the others, therefore it is will be wider, because by default all columns without a width designation will auto-fit based on the amount of content.
+            </div>
+        </div>
+
+        <h3>A Semantic Grid System</h3>
+        <p>You can control the width of each column via adding semantic classes (.one-half, .one-third, .one-fourth, etc)
+        <div class="nma-row demo">
+            <div class="nma-column one-half">
+                &frac12; Column
+            </div>
+            <div class="nma-column one-half">
+                &frac12; Column 
+            </div>
+        </div>
+            <div class="nma-row demo">
+            <div class="nma-column one-half">
+                &frac12; Column
+            </div>
+            <div class="nma-column one-half">
+                &frac12; Column that is not wider than its sibling column (with less content) because of the added class on the column.
+            </div>
+        </div>
+        <div class="nma-row demo">
+            <div class="nma-column one-third">
+                &frac13; Column
+            </div>
+            <div class="nma-column one-third">
+                &frac13; Column
+            </div>
+            <div class="nma-column one-third">
+                &frac13; Column
+            </div>
+        </div>
+        <div class="nma-row demo">
+            <div class="nma-column one-third">
+                &frac13; Column
+            </div>
+            <div class="nma-column one-third">
+                &frac13; Column
+            </div>
+            <div class="nma-column one-third">
+                &frac13; Column that is not wider than its sibling column (with less content) because of the added class on the column.
+            </div>
+        </div>
+        <div class="nma-row demo">
+            <div class="nma-column one-third">
+                &frac13; Column
+            </div>
+            <div class="nma-column two-thirds">
+                &frac23; Column
+            </div>
+        </div>
+        <div class="nma-row demo">
+            <div class="nma-column one-fourth">
+                &frac14; Column
+            </div>
+            <div class="nma-column one-fourth">
+                &frac14; Column
+            </div>
+            <div class="nma-column one-fourth">
+                &frac14; Column
+            </div>
+            <div class="nma-column one-fourth">
+                &frac14; Column
+            </div>
+        </div>
+        <div class="nma-row demo">
+            <div class="nma-column one-fourth">
+                &frac14; Column
+            </div>
+            <div class="nma-column one-fourth">
+                &frac14; Column
+            </div>
+            <div class="nma-column one-fourth">
+                &frac14; Column
+            </div>
+            <div class="nma-column one-fourth">
+                &frac14; Column that is not wider than its sibling column (with less content) because of the added class on the column.
+            </div>
+        </div>
+        <div class="nma-row demo">
+            <div class="nma-column one-half">
+                &frac12; Column
+            </div>
+            <div class="nma-column one-fourth">
+                &frac14; Column
+            </div>
+            <div class="nma-column one-fourth">
+                &frac14; Column
+            </div>
+        </div>
 
     </div>
 </section>
